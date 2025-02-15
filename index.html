@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экскурсии по Москве</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Список городов</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>   
+            </nav>
+            <div class="profile">
+                <a href="http://lab22.std-2457.ist.mospolytech.ru/">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="container d-flex">
+        <aside class="sidebar">
+            <form>
+                <fieldset>
+                    <legend>Выберите дату</legend>
+                    <div class="calendar">
+                        <!-- Week days -->
+                        <div class="calendar__weekday">Mon</div>
+                        <div class="calendar__weekday">Tue</div>
+                        <div class="calendar__weekday">Wed</div>
+                        <div class="calendar__weekday">Thu</div>
+                        <div class="calendar__weekday">Fri</div>
+                        <div class="calendar__weekday">Sat</div>
+                        <div class="calendar__weekday">Sun</div>
+                    
+                        <!-- Days of the previous month -->
+                        <div class="calendar__day calendar__day--disabled">30</div>
+                        <div class="calendar__day calendar__day--disabled">31</div>
+                    
+                        <!-- Days of the current month -->
+                        <div class="calendar__day">1</div>
+                        <div class="calendar__day">2</div>
+                        <div class="calendar__day">3</div>
+                        <div class="calendar__day">4</div>
+                        <div class="calendar__day">5</div>
+                        <div class="calendar__day">6</div>
+                        <div class="calendar__day">7</div>
+                        <div class="calendar__day">8</div>
+                        <div class="calendar__day">9</div>
+                        <div class="calendar__day">10</div>
+                        <div class="calendar__day">11</div>
+                        <div class="calendar__day">12</div>
+                        <div class="calendar__day">13</div>
+                        <div class="calendar__day">14</div>
+                        <div class="calendar__day">15</div>
+                        <div class="calendar__day">16</div>
+                        <div class="calendar__day">17</div>
+                        <div class="calendar__day">18</div>
+                        <div class="calendar__day">19</div>
+                        <div class="calendar__day">20</div>
+                        <div class="calendar__day">21</div>
+                        <div class="calendar__day">22</div>
+                        <div class="calendar__day">23</div>
+                        <div class="calendar__day">24</div>
+                        <div class="calendar__day">25</div>
+                        <div class="calendar__day">26</div>
+                        <div class="calendar__day">27</div>
+                        <div class="calendar__day">28</div>
+                        <div class="calendar__day">29</div>
+                        <div class="calendar__day">30</div>
+                    
+                        <!-- The current day -->
+                        <div class="calendar__day calendar__day--current">...</div>
+                    
+                        <!-- Days of the next month -->
+                        <div class="calendar__day calendar__day--disabled">1</div>
+                        <div class="calendar__day calendar__day--disabled">2</div>
+                    </div>
+                    
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Вид Экскурсии</legend>
+                    <div class="form-group">
+                        <input type="radio" name="eks" id="walk">
+                        <label for="group1">Пешая</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="eks" id="bus">
+                        <label for="group2">Автобусная</label>
+                    </div>
+                    
+                </fieldset>
+                <button class="btn">Применить</button>
+            </form>
+        </aside>
+        <div class="page-content">
+            <h1 class="products-header">Экскурсии</h1>
+            <div class="products">
+                <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://ponominalu.ru/media/i/960x640/ac9729ed6cbee7ad5daa4c0260d247bbd9e597ea.jpeg" alt="product1">
+                        </div>
+                        <div class="product-details">
+                            <header>Вечерняя Москва</header>
+                            <p class="product-info">Вечерняя экскурсия по Москве — это прекрасная возможность познакомиться со столицей и почувствовать ее неповторимый шарм и обаяние</p>
+                            <div class="action">
+                                <button class="buy-btn">
+                                    <span class="price">1000 &#8381;</span><span class="buy">Купить билет</span>
+                                </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://ponominalu.ru/media/i/960x640/3a6d5002409668defe7302b0df9953f16f9d7410.jpeg" alt="product2">
+                    </div>
+                    <div class="product-details">
+                        <header>Мавзолей Ленина</header>
+                        <p class="product-info">Мавзолей В. И. Ленина — уникальное архитектурное сооружение Алексея Щусева, знаменитая усыпальница, где находится тело, пожалуй, самого известного вождя нашей страны</p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">550 &#8381;</span><span class="buy">Купить билет</span>
+                            </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://ponominalu.ru/media/i/960x640/d9eb7ac0e2214b6d97595ecdad6cf79379f3a504.jpeg" alt="product3">
+                </div>
+                <div class="product-details">
+                    <header>По крышам столицы</header>
+                    <p class="product-info">Тур по смотровым площадкам столицы. Профессиональные гиды расскажут истории и городские легенды, связанные с небоскрёбами Москвы</p>
+                    <div class="action">
+                        <button class="buy-btn">
+                            <span class="price">3470 &#8381;</span><span class="buy">Купить билет</span>
+                        </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://ponominalu.ru/media/i/960x640/0f4cf0cdd96fb35dfddd616ba690d068ce0e7c03.jpeg" alt="product4">
+            </div>
+            <div class="product-details">
+                <header>Новодевичий монастырь</header>
+                <p class="product-info">Ансамбль Новодевичьего монастыря входит в число московских достопримечательностей, находящихся под защитой Юнеско. Почти 500 лет назад монастырь заложил Великий князь Василий III в память о присоединении Смоленска к Московскому государству после столетнего пребывания под властью Литвы и в честь Смоленской иконы Божьей Матери «Одигитрия».</p>
+                <div class="action">
+                    <button class="buy-btn">
+                        <span class="price">990 &#8381;</span><span class="buy">Купить Билет</span>
+                    </button>
+
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://ponominalu.ru/media/i/960x640/39c6b3d6965786727a312025462e3afe554f510b.jpeg" alt="product5">
+        </div>
+        <div class="product-details">
+            <header>Космическое Путешествие</header>
+            <p class="product-info">Экскурсия в павильон «Космос», на которой можно узнать историю советской и российской космонавтики и авиации</p>
+            <div class="action">
+                <button class="buy-btn">
+                    <span class="price">1750 &#8381;</span><span class="buy">Купить билет</span>
+                </button>
+
+        </div>
+    </div>
+</div>
+<div class="product-card">
+    <div class="product-image">
+        <img src="https://ponominalu.ru/media/i/960x640/e169b9f24ff74d68aa8f5e332235076dd91f2676.jpeg" alt="product6">
+    </div>
+    <div class="product-details">
+        <header>Подземные дворцы Москвы</header>
+        <p class="product-info">Как человек без образования заложил московскую подземку? Что делают в стенах станций коралловые рифы и морские ежи? Неужели власти хотели затопить и уничтожить столичное метро? Тысячу тайн главного метрополитена России вы узнаете в подземном путешествии. «Площадь революции» с 80 бронзовыми скульптурами, «Новослободская», где снимался фильм «Москва слезам не верит», флорентийская мозаика на «Белорусской» — вы увидите: метро в Москве это еще и музей.
+        </p>
+        <div class="action">
+            <button class="buy-btn">
+                <span class="price">1150 &#8381;</span><span class="buy">Купить билет</span>
+            </button>
+
+    </div>
+</div>
+</div>
+
+            
+                
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2023 ООО «Экскурсии по России»
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,211 @@
+*::after,*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://otdelkino.ru/upload/resize_image/iblock/91b/600_600/dy2akixs2i6j2qkqvlxxz5b1eptsbo63.jpg.webp);
+}
+.header {
+    
+    padding: 1.25rem 0;
+    background-color: rgb(219, 77, 77);
+    border-bottom: 5px solid  #520404;
+    font-size: 1.2rem;
+    position: sticky;
+    
+    top:0;
+    
+}
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    display: inline;
+    margin-right: 5px;
+}
+.profile {
+    /* float: right; */
+    margin-left: auto;
+}
+
+.sidebar {
+    /* float: left; */
+    width: 15rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    border-right: 5px solid #520404;
+    
+}
+.sidebar fieldset {
+    border: none;
+}
+.sidebar legend {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.form-group{
+    font-size: 1.2rem;
+}
+.page-content {
+    padding: 1px;
+    padding: 1rem;
+}
+
+.btn {
+    color: white;   
+    background-color:  #520404;
+    border: none;
+    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.products-header{
+    
+    text-align: center;
+}
+.product-card {
+    display: flex;
+    height: 21.8rem;
+    width: 31rem;
+    background-color: rgb(240,240,240);
+    border: 2px solid  #520404;
+    border-radius: 5px;
+}
+.product-image {
+    /* float: left; */
+    width: 50%;
+    height: 100%;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    /* float: right; */
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.product-details header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-info {
+    font-size: 18px;
+    text-align: justify;
+    height: 65%;
+    overflow: auto;
+}
+
+.buy-btn {
+    color: white;  
+    border-radius: 5px;
+    
+    font-weight: bold;
+    overflow: hidden;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    padding: 0;
+    
+}
+
+.price {
+    background-color: #520404;
+    
+    padding: 0.625rem 1.25rem;
+    display: inline-block;
+}
+.buy {
+    background-color: rgb(219, 77, 77);
+    
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+}
+
+.footer {
+    background-color: rgb(219, 77, 77);
+    border-top: 5px solid  #520404;
+    padding: 1.25rem 0;
+    color: white;  
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex-grow: 1;
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
+}
+.d-flex {
+    display: flex;
+    
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr); 
+	border: 2px solid #520404;
+	
+}   
+
+.calendar__weekday {
+    border-bottom: 1px solid #d1d5db;
+    padding: 0.125rem;
+}
+
+.calendar__day {
+    border-bottom: 1px solid #d1d5db;
+    border-right: 1px solid #d1d5db;
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.calendar__day--current {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+
+.calendar__day:nth-child(7n + 1) {
+    border-left: 1px solid #d1d5db;
+}
+
+.calendar__day--disabled {
+    color: #d1d5db;
+}
+.sidebar legend{
+    text-align: center;
+}
+
+
